@@ -2,6 +2,7 @@ name: "Book Dash"
 description: "Book Dash"
 
 url: "http://arthurattwell.github.io/sandbox"
+baseurl: "/sandbox"
 
 paginate: 10
 
