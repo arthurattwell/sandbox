@@ -1,7 +1,8 @@
-name: "Learning Jekyll"
-description: "This is Arthur learning about Jekyll"
+name: "Book Dash"
+description: "Book Dash"
 
-url: "http://localhost:4000"
+url: "http://arthurattwell.github.io/sandbox"
+baseurl: "/sandbox"
 
 paginate: 10
 
