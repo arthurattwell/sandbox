@@ -1,0 +1,229 @@
+@charset "utf-8";
+
+/* Styles by Arthur Attwell for Book Dash http://arthurattwell.com */
+
+/* -------------- BODY */
+
+body {
+	font-family: "Crimson Text", serif;
+	font-size: 1.3em;
+	margin: 0;
+	padding: 0;
+	background: #D0CFB3; /* Best to use the same colour as #footer */
+	color: #333;
+	line-height: 130%;
+}
+
+/* -------------- STRUCTURE */
+
+#debug p {
+	display: none;
+	width: 100%;
+	font-size: small;
+	background-color: pink;
+	position: fixed;
+	bottom: 0;
+	margin: 0;
+}
+#wrapper {
+	margin: 0 auto;
+	width: 960px;
+}
+#header {
+	margin: 1em;
+}
+#go-to {
+	position: fixed;
+	right: 1em;
+	bottom: 1em;
+}
+.content {
+	padding: 1em;
+	background: #FFFFFF;
+	border-radius: 1em;
+	min-height: 30em;
+}
+#footer {
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 300;
+	padding: 1em;
+	border-top: 1px solid silver;
+	background: #D0CFB3;
+}
+#footer p {
+	color: #FFF;
+	font-size: 0.7em;
+}
+#footer a {
+	color: inherit;
+}
+
+/* -------------- TEXT ELEMENTS */
+
+h1, h2, h3, h3, h4, h5, h6 {
+	font-weight: 300;
+	margin: 2em 0 0 0;
+	line-height: 90%;
+}
+h1 {
+	font-family: "Montserrat Alternates", sans-serif;
+	font-size: 3em;
+	color: #666;
+	text-align: center;
+	margin-bottom: 1em;
+}
+h2 {
+	border-top: 1px solid #D0CFB3;
+	padding-top: 1em;
+	max-width: 540px;
+}
+p, ol, ul {
+	max-width: 560px;
+}
+p.shout {
+	font-size: 250%;
+	line-height: 100%;
+	margin-top: 0.1em;
+}
+p.quote {
+	font-size: 150%;
+	line-height: 100%;
+	margin-top: 0.5em;
+	margin-left: 0.5em;
+	font-style: italic;
+}
+li {
+	margin: 0;
+}
+.sidebar {
+	float: right;
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 300;
+	font-size: 80%;
+	color: silver;
+	max-width: 30%;
+	min-width: 25%;
+	padding: 1em;
+}
+.sidebar .logo {
+	margin: 0 0 4em 0;
+}
+.sidebar .supporters {
+	font-family: "Crimson Text", serif;
+	font-style: italic;
+	font-size: 120%;
+	color: grey;
+	line-height: 120%;
+	text-align: center;
+}
+.sidebar h2 {
+	border: none;
+	padding: 0;
+	margin: 1.5em 0 1em 0;
+}
+.sidebar ul {
+	list-style-type: none;
+	margin: 0;	
+	padding: 0;
+}
+.join-mail-list {
+	margin: 1em 0 0 0;
+}
+ul.article-nav {
+	list-style-type: none;
+	margin: 0 0 1.2em 0 ;	
+	padding: 0 0 0 1em;
+	border-left: 1px solid gainsboro;
+}
+strong {
+	font-weight: 600;
+}
+a img { 
+	border: none;
+}
+a:link, a:visited {
+	color: #0089bc;
+	text-decoration: none;
+}
+.menu a:hover, .menu a:active, .menu a:focus {
+	border: 1px solid gainsboro;
+	padding: 0.2em;
+	margin: -0.25em;
+	border-radius: 0.2em;
+}
+a.go-top-button {
+	display: block; 
+	font-size: 80%;
+	font-family: "Source Sans Pro", sans-serif;
+	color: white; 
+	opacity: 0.75;
+	text-align: center; 
+	text-decoration: none; 
+	background-color: silver;
+	border: 1px solid gainsboro; 
+	border-radius: 0.25em; 
+	width: 3em; 
+	padding: 0.5em; 
+}
+a.body-button, a.sidebar-button {
+	display: block; 
+	font-family: "Source Sans Pro", sans-serif;	
+	font-weight: 300;
+	color: white; 
+	text-align: center; 
+	text-decoration: none; 
+	background-color: #0089bc;
+	border: 1px solid gainsboro; 
+	border-radius: 0.25em; 
+	width: 9em;
+	padding: 0.5em; 	
+}
+a.body-button {
+	font-size: 80%;
+}
+a.sidebar-button:hover, a.body-button:hover {
+	opacity: 0.8;
+}
+a.go-top-button:hover {
+	opacity: 1;
+}
+
+/* -------------- TABLES */
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+	max-width: 560px;
+}
+td {
+	padding: 0.3em;
+	border: 1px solid gainsboro;
+}
+
+/* -------------- IMAGES */
+
+.sidebar .logo img {
+	width: 100%;
+}
+.social-media-buttons a img {
+	opacity: 0.5;
+	margin: 1em 1em 1em 0;
+}
+.social-media-buttons a:hover img {
+	opacity: 1;
+}
+.sidebar .supporters img {
+	margin: 0.5em;
+}
+.cover-thumb {
+	margin: 0 0.5em 0 0;
+	padding: 0.2em;
+	border: 1px solid gainsboro;
+	max-width: 30%;
+}
+.event-photo {
+	margin: 0 0.5em 0 0;
+	padding: 0.2em;
+	border: 1px solid gainsboro;
+	max-width: 100%;
+}
